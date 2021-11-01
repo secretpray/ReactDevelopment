@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const Section = styled.section`
@@ -33,7 +33,7 @@ const Button = styled.a`
     -6px 6px 0px 3px #473228;
 `
 
-const Jumbotron = () => {
+export const Jumbotron = () => {
   return (
     <Section className="home-section--1">
       <div className="container">
@@ -57,5 +57,3 @@ const Jumbotron = () => {
     </Section>
   )
 }
-
-export default Jumbotron
