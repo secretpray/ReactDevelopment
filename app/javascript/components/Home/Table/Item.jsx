@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Thumbnail from './Thumbnail'
+import React from 'react'
+import { Thumbnail } from './Thumbnail'
 import styled from 'styled-components'
 
 const Button = styled.a`
@@ -16,7 +16,7 @@ const Button = styled.a`
     -6px 6px #ef5f17,
     -6px 6px 0px 3px #473228;
 `
-const Item = (props) => {
+export const Item = ({ courseItem, handleVideoChange }) => {
   return(
     <div className="row pt-4 pb-4">
       <div className="col-md-10 offset-md-1">
@@ -24,14 +24,14 @@ const Item = (props) => {
           <div className="card px-5">
             <div className="row">
               <div className="col-md-4">
-                <Thumbnail/>
+                <Thumbnail url={courseItem.url}/>
               </div>
               <div className="col-md-8">
                 <div className="pt-4 pb-4">
-                  <h4>{props.title}</h4>
-                  <p>{props.description}</p>
+                  <h4>{courseItem.title}</h4>
+                  <p>{courseItem.description}</p>
                   <div className="cta-wrapper">
-                    <Button onClick={props.handleVideoChange} className="btn cta-btn">Watch this video</Button>
+                    <Button onClick={() => handleVideoChange(courseItem.id)} className="btn cta-btn">Watch this video</Button>
                   </div>
                 </div>
               </div>
@@ -42,5 +42,3 @@ const Item = (props) => {
     </div>
   )
 }
-
-export default Item
