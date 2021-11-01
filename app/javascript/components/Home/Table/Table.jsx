@@ -3,7 +3,6 @@ import { Item } from './Item'
 import { ActiveItem } from './ActiveItem'
 
 export const Table = ({ coursesItems, handleVideoChange }) => {
-  console.log({coursesItems})
   return(
     <div className="pt-5 pb-5">
       <div className="container">
