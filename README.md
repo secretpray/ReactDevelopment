@@ -1,25 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails with React (functional components + hooks useState, useEffect)
+based on Zaine (https://www.youtube.com/watch?v=5F_JUvPq410&t=2s)
 
-Things you may want to cover:
+Demo: https://rails-react-video.herokuapp.com/
 
-* Ruby version
+Video:
 
-* System dependencies
+https://user-images.githubusercontent.com/17977331/139735615-e8fb2f86-3f17-4408-abea-c8b9cf78e7a8.mp4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# ReactDevelopment
