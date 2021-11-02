@@ -9,3 +9,7 @@ Video:
 
 https://user-images.githubusercontent.com/17977331/139735615-e8fb2f86-3f17-4408-abea-c8b9cf78e7a8.mp4
 
+TODO
+- pagination (with pagy)
+- full CRUD 
+- user authentication
